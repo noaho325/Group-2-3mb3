@@ -1,0 +1,90 @@
+%----------------------------------------------------------------------------------------
+% PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+%packages to use various commands. You may need more packages depending on the commands you'd like to use, but it's unlikely.
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{titling}
+\pagestyle{fancy}
+
+\usepackage{listings}
+\usepackage{xcolor} % For colors
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage[version=4]{mhchem}
+
+% Define a custom style
+\lstset{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!60!black},
+    stringstyle=\color{red},
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    captionpos=b % 'b' for bottom, 't' for top
+}
+
+
+
+\setlength{\droptitle}{-10em} 
+
+\renewcommand{\headheight}{32px}
+\renewcommand{\headrulewidth}{0.75pt}
+\setlength{\headsep}{20px}
+\setlength{\parskip}{8px}
+\setlength{\topmargin}{-18px}
+\fancyhead[LO]{\small McMaster University \\ Math 3MB3}
+\fancyhead[RO]{\small Final Project}
+
+% a new command that makes a better +/- sign than LaTeX provides
+\newcommand{\ppm}{\mathbin{\tikz [x=1.4ex,y=1.4ex,line width=.1ex] \draw (0.0,0) -- (1.0,0) (0.5,0.08) -- (0.5,0.92) (0.0,0.5) -- (1.0,0.5);}}
+
+
+%----------------------------------------------------------------------------------------
+% DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title {Final Project \\  Math 3MB3 } % Title
+
+\author{ J. \textsc{McElheron et al.}} % Author name
+
+\date{\today} % Date for the report
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle % Insert the title, author and date
+\thispagestyle{empty}
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+% SECTION 1
+%----------------------------------------------------------------------------------------
+\section{Section 1}
+%----------------------------------------------------------------------------------------
+% SECTION 2
+%----------------------------------------------------------------------------------------
+\section{Section 2}
+
+%----------------------------------------------------------------------------------------
+% SECTION 3
+%----------------------------------------------------------------------------------------
+\section{Section 3}
+
+%-------------------------------------------------------------------------
+%References
+%-------------------------------------------------------------------------
+\newpage
+\section{References}
+
+\end{document}
+
